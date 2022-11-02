@@ -109,3 +109,27 @@
       width: 80%;
   }
 }
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(58, 153, 235);
+  width: auto;
+  padding:5rem 5rem;
+  width: 50%;
+  margin: auto;
+}
+
+.container{
+  background-color: #bfb9f7;
+}
+
+.text-field{
+  border: 2px solid dimgray;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 4px;
+  width: 80%;
+}
