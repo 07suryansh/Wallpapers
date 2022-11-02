@@ -97,6 +97,51 @@
   font-size: 14px;
 }
 
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding:5rem 5rem;
+  width: 20%;
+  margin: auto;
+  margin-top: 8rem;
+  border: 1.5px solid darkgrey;
+  border-radius: 12px;
+}
+
+.container{
+  
+}
+
+.text-field{
+  border: 1.5px solid darkgrey;
+  border-radius: 6px;
+  margin: 8px 4px;
+  padding: 4px;
+  width: 80%;
+}
+
+.signin-btn{
+  width: 8rem;
+  margin: 14px 4px;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: #645CAA;
+  color: white;
+}
+
+.signin-btn:hover{
+  background-color: #584fa7;
+}
+
+.signin-text{
+  margin: 4px auto 16px auto;
+}
+
+
+
 
 @media only screen and (max-width: 600px) {
   .content{
@@ -110,26 +155,3 @@
   }
 }
 
-.form{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(58, 153, 235);
-  width: auto;
-  padding:5rem 5rem;
-  width: 50%;
-  margin: auto;
-}
-
-.container{
-  background-color: #bfb9f7;
-}
-
-.text-field{
-  border: 2px solid dimgray;
-  border-radius: 5px;
-  margin: 5px;
-  padding: 4px;
-  width: 80%;
-}
