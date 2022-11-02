@@ -107,7 +107,7 @@
   width: 20%;
   margin: auto;
   margin-top: 8rem;
-  border: 1.5px solid darkgrey;
+  border: 1px solid lightgrey;
   border-radius: 12px;
 }
 
@@ -116,7 +116,7 @@
 }
 
 .text-field{
-  border: 1.5px solid darkgrey;
+  border: 1px solid lightgrey;
   border-radius: 6px;
   margin: 8px 4px;
   padding: 4px;
