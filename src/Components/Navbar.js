@@ -1,4 +1,5 @@
 import React from 'react'
+import { CgProfile } from "react-icons/cg";
 
 export default function Navbar() {
   return (
@@ -11,7 +12,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="right">
-        <p className='text-sm profile-link'>Hi, Suryansh</p>
+        <p className='text-sm profile-link'>Hi, Suryansh <CgProfile className='profile-icon'/></p>
       </div>
         
     </nav>
