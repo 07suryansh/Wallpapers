@@ -49,6 +49,9 @@
   flex-direction: row;
 }
 
+.profile-link:hover{
+  text-decoration: underline;
+}
 
 
 .content{
